@@ -19,7 +19,7 @@ def parse_csv_for_keyword(csv_file, keyword, output_dir='output'):
     skipped_count = 0
     output_count = 0
     total_matches = 0
-    max_puzzles = 1000
+    max_puzzles = 10000
 
     # Create temporary PGN file with all matching games
     temp_filename = sanitize_filename(f"{keyword}_puzzles_temp.pgn")
